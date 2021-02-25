@@ -1,0 +1,40 @@
+#include<stdio.h>
+int main ()
+{
+	float a,b,c,d,e,curency;  //a-ksh,b-dollars,c-euro,d-tanzania,e- uganda//
+	printf("1 dollar,2 euro,3 tanzania, 4 uganda\n\n");
+	printf("enter currency\n"); 
+	scanf("%f",&curency);
+	if (curency==1)
+	{
+		printf("enter ksh amount");
+		scanf("%f",&a);
+		b=a/102.20;
+		printf("%f",b);
+	}
+	else if(curency==2)
+		{
+		printf("enter ksh amount");
+		scanf("%f",&a);
+		c=a/116.30;
+		printf("%f",c);
+	}
+		else if(curency==3)
+		{
+		printf("enter ksh amount");
+		scanf("%f",&a);
+		d=a/0.20;
+		printf("%f",d);
+	}
+		else if(curency==4)
+		{
+		printf("enter ksh amount");
+		scanf("%f",&a);
+		e=a/0.55;
+		printf("%f",e);
+	}
+	else
+	{
+		printf("ivalid curency");
+	}
+}
