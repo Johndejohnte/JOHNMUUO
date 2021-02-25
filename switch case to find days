@@ -1,0 +1,57 @@
+#include<stdio.h>
+int main ()
+{
+	int day;
+	printf("Enter day number\n");
+	scanf("%d",&day);
+	switch(day)
+	{
+		case 1:
+			{
+				printf("Monday");
+				scanf("%d",&day);
+				break;
+			}
+			case 2:
+				{
+					printf("Tuesday");
+						scanf("%d",&day);
+					break;
+				}
+				case 3:
+					{
+						printf("Wednesday");
+							scanf("%d",&day);
+						break;
+					}
+					case 4:
+						{
+							printf("Thursday");
+								scanf("%d",&day);
+							break;
+						}
+						case 5:
+							{
+								printf("Friday");
+									scanf("%d",&day);
+								break;
+							}
+							case 6:
+								{
+									printf("Saturday");
+										scanf("%d",&day);
+									break;
+								}
+								case 7:
+									{
+										printf("Sunday");
+											scanf("%d",&day);
+										break;
+									}
+									default:
+									{
+										printf("Invalid day number");
+									}
+									printf("Have nice day");
+	}
+}
