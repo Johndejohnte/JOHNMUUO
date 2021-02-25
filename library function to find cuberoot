@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<math.h>
+int main ()
+{
+	int n,root;
+	printf("enter n value");
+	scanf("%d",&n);
+	root= (cbrt (n));
+	printf("the cuberoot of n is %d",root);
+}
