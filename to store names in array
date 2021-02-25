@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<string.h>
+int main ()
+{
+	char name1[8],name2[8];
+	printf("Please enter the name\n");
+	scanf("%s",&name1);
+	printf("PLease enter the second name\n");
+	scanf("%s",&name2);
+	printf("My name is:%s\t%s",name1,name2);
+}
