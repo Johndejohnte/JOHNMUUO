@@ -1,0 +1,16 @@
+//write c pragramm to add marks of 5 students using array and print the average//
+#include<stdio.h>
+int main ()
+{
+	float marks[5] = {90.2,30.3,70.4,40.5,40.5};
+	float sum = 0;
+	float average;
+	for (int i=0; i<=4; i++)
+	{sum = sum + marks [i];
+}
+{
+
+	average = sum/5;
+	printf("the average is %f",average);
+}
+}
