@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main ()
+{
+	int a,n=1000,sum=0;
+	for(a=0;a<=n;a+=2)
+	{
+		sum+=a;
+	}
+	printf("sum of all even no. is %d=%d",n,sum);
+}
